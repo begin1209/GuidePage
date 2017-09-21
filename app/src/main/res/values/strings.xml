@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GuidePageActivity</string>
+
+    <string name="ok3_get">Ok_Get</string>
+    <string name="ok3_download">Ok_Download</string>
+    <string name="ok3_post">Ok_Post</string>
+    <string name="ok3_upload">Ok_Upload</string>
+    <string name="ok3_mutipart">Ok_Multipart</string>
+    <string name="ok3_settings">Ok_Settings</string>
 </resources>

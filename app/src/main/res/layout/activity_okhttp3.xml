@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhy.okhttp.OkHttp3Activity">
+
+    <Button
+        android:id="@+id/ok_settings"
+        android:layout_marginTop="@dimen/ok3_btn_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ok3_btn_text_size"
+        android:textAllCaps="false"
+        android:onClick="okSettings"
+        android:text="@string/ok3_settings"/>
+
+    <Button
+        android:id="@+id/ok_get"
+        android:layout_marginTop="@dimen/ok3_btn_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ok3_btn_text_size"
+        android:textAllCaps="false"
+        android:onClick="okGet"
+        android:text="@string/ok3_get"/>
+
+    <Button
+        android:id="@+id/ok_download"
+        android:layout_marginTop="@dimen/ok3_btn_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ok3_btn_text_size"
+        android:textAllCaps="false"
+        android:onClick="okDownload"
+        android:text="@string/ok3_download"/>
+
+    <Button
+        android:id="@+id/ok_post"
+        android:layout_marginTop="@dimen/ok3_btn_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ok3_btn_text_size"
+        android:textAllCaps="false"
+        android:onClick="okPost"
+        android:text="@string/ok3_post"/>
+
+    <Button
+        android:id="@+id/ok_upload"
+        android:layout_marginTop="@dimen/ok3_btn_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ok3_btn_text_size"
+        android:textAllCaps="false"
+        android:onClick="okUpload"
+        android:text="@string/ok3_upload"/>
+
+    <Button
+        android:id="@+id/ok_mutipart"
+        android:layout_marginTop="@dimen/ok3_btn_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ok3_btn_text_size"
+        android:textAllCaps="false"
+        android:onClick="okUploadMutipart"
+        android:text="@string/ok3_mutipart"/>
+</LinearLayout>
